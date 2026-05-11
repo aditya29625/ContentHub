@@ -50,7 +50,7 @@ export default function Header() {
             <div style={{ height: '32px', width: '32px', borderRadius: '8px', background: 'var(--color-primary)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
               <span style={{ color: 'var(--color-primary-foreground)', fontWeight: 'bold', fontSize: '16px' }}>C</span>
             </div>
-            <span style={{ fontSize: '20px', fontWeight: '800', letterSpacing: '-0.5px', display: 'none', md: 'block' }}>ContentHub</span>
+            <span className="hidden md:block" style={{ fontSize: '20px', fontWeight: '800', letterSpacing: '-0.5px' }}>ContentHub</span>
           </div>
         </div>
 
